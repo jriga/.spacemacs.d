@@ -34,7 +34,7 @@ This function should only modify configuration layer settings."
    dotspacemacs-configuration-layers
    '(nginx
      csv
-     html
+     (html :variables web-mode-markup-indent-offset 2)
      yaml
      (javascript :variables js-indent-level 2)
      (ruby :variables
